@@ -5,6 +5,9 @@
     <title> <%= @title %> </title>
   </head>
   <body>
+    <%= erb(:'partials/nav') %>
+
+    <%= yield %>
     
   </body>
 </html>
